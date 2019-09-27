@@ -1,0 +1,1 @@
+{% case attributes.language %}{% when 'ly55389' %}[{{shop_name}}] Commande {{ name }} passée par {{ billing_address.name }}{% if has_high_risks? %} (Risque de fraude){% endif %}{% else %}[{{shop_name}}] Order {{ name }}{% if customer.name %} placed by {{ customer.name }}{% endif %}{% if has_high_risks? %} (Risk of fraud){% endif %}{% endcase %}

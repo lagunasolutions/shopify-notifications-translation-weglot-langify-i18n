@@ -1,0 +1,1 @@
+{% case attributes.language %}{% when 'ly55389' %}Un envoi de la commande {{ name }} a été livré{% else %}A shipment from order {{ name }} has been delivered{% endcase %}

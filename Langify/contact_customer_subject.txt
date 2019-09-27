@@ -1,0 +1,1 @@
+{% case attributes.language %}{% when 'ly55389' %}Un message de {{ shop.name }}{% else %}Message from {{ shop.name }}{% endcase %}

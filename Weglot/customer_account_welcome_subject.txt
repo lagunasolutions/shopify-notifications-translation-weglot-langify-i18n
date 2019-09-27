@@ -1,0 +1,1 @@
+{% case attributes.lang %}{% when 'fr' %}Confirmation de compte utilisateur{% else %}Customer account confirmation{% endcase %}

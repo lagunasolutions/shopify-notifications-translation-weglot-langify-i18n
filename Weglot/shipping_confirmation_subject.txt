@@ -1,0 +1,1 @@
+{% case attributes.lang %}{% when 'fr' %}La livraison de la commande {{ name }} est en cours{% else %}A shipment from order {{ name }} is on the way{% endcase %}

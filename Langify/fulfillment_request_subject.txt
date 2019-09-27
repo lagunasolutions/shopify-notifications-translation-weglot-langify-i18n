@@ -1,0 +1,1 @@
+{% case attributes.language %}{% when 'ly55389' %}Demande de finalisation de commande pour {{ shop_name }}{% else %}Order fulfillment request for {{ shop_name }}{% endcase %}

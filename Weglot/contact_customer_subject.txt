@@ -1,0 +1,1 @@
+{% case attributes.lang %}{% when 'fr' %}Un message de {{ shop.name }}{% else %}Message from {{ shop.name }}{% endcase %}

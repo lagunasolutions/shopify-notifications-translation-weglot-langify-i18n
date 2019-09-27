@@ -1,0 +1,1 @@
+{% case attributes.lang %}{% when 'fr' %}Demande de finalisation de commande pour {{ shop_name }}{% else %}Order fulfillment request for {{ shop_name }}{% endcase %}

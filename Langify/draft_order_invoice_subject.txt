@@ -1,0 +1,1 @@
+{% case attributes.language %}{% when 'ly55389' %}Facture {{name}}{% else %}Invoice {{name}}{% endcase %}

@@ -1,0 +1,1 @@
+{% case attributes.lang %}{% when 'fr' %} Commande {{name}} confirmée {% else %}Order {{name}} confirmed {% endcase %}

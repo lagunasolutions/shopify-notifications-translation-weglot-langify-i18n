@@ -1,0 +1,1 @@
+{% case attributes.language %}{% when 'ly55389' %} [{{shop.name}}] Le paiement n'a pas pu être traité {% else %} [{{shop.name}}] Payment couldn’t be processed {% endcase %}

@@ -1,0 +1,1 @@
+{% case attributes.lang %}{% when 'fr' %} Étiquette de retour pour la commande {{ order.name }} {% else %} Return label for order {{ order.name }} {% endcase %}
